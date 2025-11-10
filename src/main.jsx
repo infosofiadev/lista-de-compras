@@ -10,10 +10,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
   },
-  // {
-  //   path: "/task",
-  //   element: <TaskPage />,
-  // }
 ])
 
 createRoot(document.getElementById('root')).render(
