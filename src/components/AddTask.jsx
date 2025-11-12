@@ -5,7 +5,7 @@ function AddTask(props) {
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("");
   return (
-  <div className="space-y-4 p-6 bg-slate-200 rounded-md shadow flex flex-col">
+  <div className="space-y-4 p-6 bg-slate-200 rounded-md shadow flex flex-col text-xl">
     <Input 
       type="text" placeholder="Digite o produto" 
       value={title}
@@ -34,7 +34,7 @@ function AddTask(props) {
       setTitle("");
       setCategory("");
     }}
-    className="bg-slate-700 text-white px-4 py-2 rounded-md font-medium">
+    className="bg-slate-700 text-white text-xl px-4 py-2 rounded-md font-medium">
         Adicionar
     </button>
   </div>

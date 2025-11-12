@@ -49,7 +49,7 @@ function App() {
       : tasks.filter((task) => task.category === categoryFilter);
 
   return (
-    <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
+    <div className="min-h-screen bg-sky-900 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
         <Title>LISTA DE COMPRAS</Title>
         <AddTask onAddTaskSubmit={onAddTaskSubmit} />
